@@ -33,7 +33,9 @@ body {
   margin-right: 30px;
   background-color: white;
 }
-
+.navbar {
+  background-color: whitesmoke;
+}
 /* SECTION-1 */
 .site-content {
   background-image: url('/image/background1.jpg');
@@ -65,13 +67,12 @@ body {
   background-color: coral;
   border: rgb(192, 74, 32);
 }
-/* .card {
-  width: 20rem;
-} */
+
+
 
 /* SECTION-1 */
 .section-1, .heading-1 {
-  margin-top: 8%;
+  margin-top: 5%;
   margin-bottom: 5%;
 }
 .section-1, .para-1 {
@@ -93,6 +94,8 @@ body {
 .section-1 {
    margin-bottom: 8%;
 }
+
+
 
 /* SECTION-2 */
 .section-2 .container-fluid {
@@ -126,7 +129,34 @@ body {
 }
 
 
+
 /* SECTION-3 */
+.section-3 .container-fluid {
+  background-image: url('/image/background1.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+.section-3 .heading-1 {
+  margin-top: 20%;
+  margin-bottom: 4%;
+  margin-left: 30%;
+  font-family: 'Righteous';
+  width: 80%;
+  color: whitesmoke;
+}
+.section-3 .para {
+  width: 80%;
+  margin-left: 30%;
+  font-family: 'Ubuntu';
+  color: whitesmoke;
+  margin-bottom: 7%;
+}
+.section-3 .btn {
+  margin-bottom: 15%;
+  margin-left: 30%;
+  width: 30%;
+  padding: 2% 5%;
+}
 .section-3 {
   margin-top: 8%;
 }
@@ -137,7 +167,6 @@ body {
   color: rgba(0, 0, 0, 0.59);
 }
 .section-3 a {
-  font-size: 27px;
   color: black !important;
   transition: all 0.5s ease-in
 }
@@ -145,6 +174,12 @@ body {
   color: coral !important;
   text-decoration: none;
 }
+.section-3 .row {
+  padding-bottom: 5%;
+}
+
+
+
 /* SECTION-4 */
 .section-4 .container-fluid {
   background-image: url('/image/background1.jpg');
@@ -175,6 +210,24 @@ body {
 .section-4 {
   margin-top: 8%;
 }
+.section-4 i {
+  color: coral;
+}
+.section-4 p {
+  color: rgba(0, 0, 0, 0.59);
+}
+.section-4 a {
+  color: black !important;
+  transition: all 0.5s ease-in
+}
+.section-4 a:hover {
+  color: coral !important;
+  text-decoration: none;
+}
+.section-4 .row {
+  padding-bottom: 5%;
+}
+
 
  /* FOOTER */
  .social i {
@@ -184,7 +237,56 @@ body {
  .section-5 {
    padding-top: 15%;
  }
- 
+.form-box{
+    padding: 10rem;
+    clear: both;
+    width: 100%;
+    position: relative;
+}
+.form-box input{
+    font-size: 1rem;
+    width: 300px;
+    padding: 0.25rem 1rem;
+}
+.form-box select{
+    font-size: 1rem;
+    width: 300px;
+    padding: 0.25rem 1rem;
+}
+.form-box option{
+    font-size: 1rem;
+    width: 300px;
+    padding: 0.25rem 1rem;
+}
+.form-box input[type="checkbox"]{
+    font-size: 1rem;
+}
+.form-box button{
+    font-size: 1rem;
+    padding: .25rem 2rem;
+    color: white;
+    background-color: coral;
+    cursor: pointer;
+}
+
+
+/*---Style Welcome Section --*/
+.welcome {
+  /* condenses welcome row */
+  width: 75%;
+  /* centers welcome row */
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+/* stylizes horizontal line */
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+
 
 
  @media screen and (max-width: 768px) {
@@ -226,3 +328,28 @@ body {
      margin-top: 5%;
    }
  }
+
+
+
+ /*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+  padding: 1rem;
+}
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
