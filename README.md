@@ -2,4 +2,4 @@
 
 ## Working on it now. Thanks!
 
-Preview: [Peter Phelps Hardy Website](/index.html)
+Preview: [Peter Phelps Hardy Website](https://peterhardy22.github.io)
