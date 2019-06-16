@@ -229,45 +229,6 @@ body {
 }
 
 
- /* FOOTER */
- .social i {
-   color: coral;
-   font-size: 30px;
- }
- .section-5 {
-   padding-top: 15%;
- }
-.form-box{
-    padding: 10rem;
-    clear: both;
-    width: 100%;
-    position: relative;
-}
-.form-box input{
-    font-size: 1rem;
-    width: 300px;
-    padding: 0.25rem 1rem;
-}
-.form-box select{
-    font-size: 1rem;
-    width: 300px;
-    padding: 0.25rem 1rem;
-}
-.form-box option{
-    font-size: 1rem;
-    width: 300px;
-    padding: 0.25rem 1rem;
-}
-.form-box input[type="checkbox"]{
-    font-size: 1rem;
-}
-.form-box button{
-    font-size: 1rem;
-    padding: .25rem 2rem;
-    color: white;
-    background-color: coral;
-    cursor: pointer;
-}
 
 
 /*---Style Welcome Section --*/
