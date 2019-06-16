@@ -26,22 +26,20 @@ body {
 .nav-link:hover {
   color: coral !important;
 }
-.menu-right-btn {
-  padding: 13px 46px;
-  margin-right: 4%;
-  background-color: transparent;
-  transition: all 300ms ease-in;
+.navbar .navbar-collapse {
+  text-align: center;
 }
-.menu-right-btn:hover {
-  color: white;
-  background-color: coral;
-}  
+.navbar .navbar-toggler {
+  margin-right: 30px;
+  background-color: white;
+}
 
 /* SECTION-1 */
 .site-content {
   background-image: url('/image/background1.jpg');
   background-attachment: fixed;
   background-size: cover;
+  height: 750px;
 }
 .site-title, .site-desc {
   color: white;
@@ -53,7 +51,7 @@ body {
   font-size: 50px;
 }
 .site-desc {
-  font-size: 14px;
+  font-size: 20px;
 }
 .site-btn1 {
   margin-top: 5%;
@@ -81,6 +79,14 @@ body {
   margin-left: 20%;
   margin-bottom: 5%;
 }
+.section-1 .card {
+  size: absolute;
+}
+.section-1 .card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
 .section-1 .card-text, .para-1 {
   color: rgba(0, 0, 0, 0.59);
 }
@@ -97,25 +103,32 @@ body {
 .section-2 .heading-1 {
   margin-top: 20%;
   margin-bottom: 4%;
+  margin-left: 30%;
   font-family: 'Righteous';
   width: 80%;
   color: whitesmoke;
 }
 .section-2 .para {
   width: 80%;
+  margin-left: 30%;
   font-family: 'Ubuntu';
   color: whitesmoke;
   margin-bottom: 7%;
 }
 .section-2 .btn {
   margin-bottom: 15%;
+  margin-left: 30%;
   width: 30%;
   padding: 2% 5%;
 }
+.section-2 {
+  margin-top: 8%;
+}
+
 
 /* SECTION-3 */
 .section-3 {
-  margin-top: 6%;
+  margin-top: 8%;
 }
 .section-3 i {
   color: coral;
@@ -123,32 +136,55 @@ body {
 .section-3 p {
   color: rgba(0, 0, 0, 0.59);
 }
-
-/* SECTION_$ */
+.section-3 a {
+  font-size: 27px;
+  color: black !important;
+  transition: all 0.5s ease-in
+}
+.section-3 a:hover {
+  color: coral !important;
+  text-decoration: none;
+}
+/* SECTION-4 */
+.section-4 .container-fluid {
+  background-image: url('/image/background1.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+.section-4 .heading-1 {
+  margin-top: 20%;
+  margin-bottom: 4%;
+  margin-left: 30%;
+  font-family: 'Righteous';
+  width: 80%;
+  color: whitesmoke;
+}
+.section-4 .para {
+  width: 80%;
+  margin-left: 30%;
+  font-family: 'Ubuntu';
+  color: whitesmoke;
+  margin-bottom: 7%;
+}
+.section-4 .btn {
+  margin-bottom: 15%;
+  margin-left: 30%;
+  width: 30%;
+  padding: 2% 5%;
+}
 .section-4 {
   margin-top: 8%;
 }
-.section-4 .row .col-md-7, .col-md-5 {
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-.section-4 a {
-  color: coral;
-  font-size: 25px;
-  text-decoration: none;
- }
- .section-4 .para-1 {
-   color: whitesmoke;
-   font-family: 'Roboto Condensed';
-   margin-top: 7%;
-   font-size: 23px;
- }
 
  /* FOOTER */
  .social i {
    color: coral;
-   font-size: 20px;
+   font-size: 30px;
  }
+ .section-5 {
+   padding-top: 15%;
+ }
+ 
 
 
  @media screen and (max-width: 768px) {
