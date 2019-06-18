@@ -38,7 +38,7 @@ body {
 }
 /* SECTION-1 */
 .site-content {
-  background-image: url('/image/background1.jpg');
+  background-image: url('../image/background1.jpg');
   background-attachment: fixed;
   background-size: cover;
   height: 750px;
@@ -99,7 +99,7 @@ body {
 
 /* SECTION-2 */
 .section-2 .container-fluid {
-  background-image: url('/image/background1.jpg');
+  background-image: url('../image/background1.jpg');
   background-attachment: fixed;
   background-size: cover;
 }
@@ -132,7 +132,7 @@ body {
 
 /* SECTION-3 */
 .section-3 .container-fluid {
-  background-image: url('/image/background1.jpg');
+  background-image: url('../image/background1.jpg');
   background-attachment: fixed;
   background-size: cover;
 }
@@ -182,7 +182,7 @@ body {
 
 /* SECTION-4 */
 .section-4 .container-fluid {
-  background-image: url('/image/background1.jpg');
+  background-image: url('../image/background1.jpg');
   background-attachment: fixed;
   background-size: cover;
 }
