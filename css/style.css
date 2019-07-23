@@ -7,6 +7,12 @@ body {
   font-family: 'Lato';
 }
 /* NAVBAR */
+.navbar-nav > li{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
 .navbar-brand {
   font-family: 'Righteous';
   font-size: 35px;
@@ -180,53 +186,7 @@ body {
 
 
 
-/* SECTION-4 */
-.section-4 .container-fluid {
-  background-image: url('../image/background1.jpg');
-  background-attachment: fixed;
-  background-size: cover;
-}
-.section-4 .heading-1 {
-  margin-top: 20%;
-  margin-bottom: 4%;
-  margin-left: 30%;
-  font-family: 'Righteous';
-  width: 80%;
-  color: whitesmoke;
-}
-.section-4 .para {
-  width: 80%;
-  margin-left: 30%;
-  font-family: 'Ubuntu';
-  color: whitesmoke;
-  margin-bottom: 7%;
-}
-.section-4 .btn {
-  margin-bottom: 15%;
-  margin-left: 30%;
-  width: 30%;
-  padding: 2% 5%;
-}
-.section-4 {
-  margin-top: 8%;
-}
-.section-4 i {
-  color: coral;
-}
-.section-4 p {
-  color: rgba(0, 0, 0, 0.59);
-}
-.section-4 a {
-  color: black !important;
-  transition: all 0.5s ease-in
-}
-.section-4 a:hover {
-  color: coral !important;
-  text-decoration: none;
-}
-.section-4 .row {
-  padding-bottom: 5%;
-}
+
 
 
 
@@ -251,6 +211,14 @@ body {
 
 
  @media screen and (max-width: 768px) {
+   .navbar .navbar-brand img {
+      height: 50px;
+      width: 250px;
+      position: absolute;
+      top: 0;
+      left: 0;
+   }
+
    .section-1 .card {
      width: 14rem;
    }
