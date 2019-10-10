@@ -11,7 +11,7 @@ $(document).ready(function() {
   });
   // Creates typed effect in supersliders section
   var typed = new Typed(".typed", {
-    strings: ["Software Developer.", "Database Administrator.", "Programmer."],
+    strings: ["Software Developer", "Database Administrator", "Data Analyst"],
     typeSpeed: 65,
     loop: true,
     // wait before it starts typing again

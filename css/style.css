@@ -65,3 +65,8 @@
     /* 100px top and bottom, 0 left and right */
     padding: 100px 0;
 }
+
+.aboutImage {
+    /* can only be as wide as the col width */
+    max-width: 100%;
+}
