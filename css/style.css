@@ -1,3 +1,12 @@
+/* DEFAULT STYLING */
+body {
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  letter-spacing: 1px;
+}
+
+
 /* SUPERSLIDES SECTION */
 /* overlay to darken images for icons to stand out more */
 .overlay {
@@ -69,4 +78,44 @@
 .aboutImage {
     /* can only be as wide as the col width */
     max-width: 100%;
+}
+
+
+/* SKILLS SECTION */
+.skillsSection {
+    background-color: #FFC312;
+    color: #fff;
+}
+
+.skill {
+    text-align: center;
+    margin-left: 10px;
+}
+
+.chart {
+    /* positions percentage inside the pie chart */
+    position: relative;
+    width: 152px;
+    height: 152px;
+    /*  */
+    display: inline-block;
+    text-align: center;
+}
+
+.chart canvas {
+  /* positions element closest to parent tag with positioning */
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.chart .percent {
+  color: #000;
+  line-height: 152px;
+  display: inline-block;
+  font-size: 35px;
+}
+/* :after puts something after the content, in this case a percent sign */
+.chart .percent:after {
+    content: '%';
 }
