@@ -92,6 +92,10 @@ body {
     margin-left: 10px;
 }
 
+.skill h4 {
+  padding-top: 5px;
+}
+
 .chart {
     /* positions percentage inside the pie chart */
     position: relative;
@@ -110,7 +114,7 @@ body {
 }
 
 .chart .percent {
-  color: #000;
+  color: #FFC312;
   line-height: 152px;
   display: inline-block;
   font-size: 35px;
