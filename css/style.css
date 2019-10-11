@@ -55,8 +55,8 @@ body {
 .titleMessage .heading p {
     color: #fff;
     /* horizontal shadow, vertical shadow, blur radius, color */
-    text-shadow: 0px, 2px, 5px, rgba(0, 0, 0, 0.4);
-    font-weight: 100;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    font-weight: 200;
     letter-spacing: 7px;
 }
 
@@ -75,6 +75,10 @@ body {
     padding: 100px 0;
 }
 
+.section h4 {
+  padding: 15px 0px;
+}
+
 .aboutImage {
     /* can only be as wide as the col width */
     max-width: 100%;
@@ -83,7 +87,7 @@ body {
 
 /* SKILLS SECTION */
 .skillsSection {
-    background-color: #ff793f;
+    background-color: #c23616;
     color: #fff;
 }
 
