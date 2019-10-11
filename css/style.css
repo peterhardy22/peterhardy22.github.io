@@ -76,7 +76,7 @@ body {
 }
 
 .section h4 {
-  padding: 15px 0px;
+    padding: 15px 0px;
 }
 
 .aboutImage {
@@ -97,7 +97,11 @@ body {
 }
 
 .skill h4 {
-  padding-top: 5px;
+  padding-top: 10px;
+}
+
+.skill p {
+  padding-top: 0px;
 }
 
 .chart {
@@ -105,7 +109,7 @@ body {
     position: relative;
     width: 152px;
     height: 152px;
-    /*  */
+    /* allows to set a width and height on the element */
     display: inline-block;
     text-align: center;
 }

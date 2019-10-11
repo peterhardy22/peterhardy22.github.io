@@ -22,7 +22,7 @@ $(document).ready(function() {
 
   // activates owl carousel in technical skills section
   $('.owl-carousel').owlCarousel({
-      loop:true,
+      loop: true,
       items: 4,
       // specifices how many items to show when a screen is a certain size
       responsive:{
