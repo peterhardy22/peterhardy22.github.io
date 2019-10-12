@@ -97,7 +97,7 @@ body {
 }
 
 .skill h4 {
-  padding-top: 10px;
+  padding-top: 8px;
 }
 
 .skill p {
@@ -130,4 +130,65 @@ body {
 /* :after puts something after the content, in this case a percent sign */
 .chart .percent:after {
     content: '%';
+}
+
+
+/* STATS SECTION */
+.squareItem {
+    margin-top: 30px;
+    position: relative;
+ }
+
+.squareInnerContainer {
+    position: relative;
+    padding: 50px 15px 35px;
+    text-align: center;
+    border: 2px solid #444;
+    /* leaves gap at top of border for icon */
+    border-top: none;
+}
+/* inserts styling before content, and after the content */
+.squareInnerContainer:before,
+.squareInnerContainer:after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    width: 30%;
+    border-bottom: 2px solid #444;
+}
+
+.squareInnerContainer:before {
+    /* pushes line to the right */
+    right: 0px;
+}
+
+.squareInnerContainer:after {
+    /* pushes line to the left */
+    left: 0px;
+}
+
+.squareContent h2 {
+    font-size: 56px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #e84118;
+}
+
+.squareContent h3 {
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.squareIcon {
+   position: absolute;
+   left: 50%;
+   /* go to the top but then go 30px past the top */
+   top: -30px;
+   /* 40% because top lines on box are 30% each */
+   width: 40%;
+   height: 60px;
+   font-size: 45px;
+   margin-left: -20%;
+   color: #444;
 }
