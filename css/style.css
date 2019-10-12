@@ -198,7 +198,7 @@ body {
 
 /* CONTACT SECTION */
 .contactButton {
-    color: #fff;
+    color: #FFC312;
     padding: 15px 20px;
     display: inline-block;
     margin-top: 20px;
@@ -212,4 +212,40 @@ body {
     text-decoration: none;
     color: #e84118;
     background-color: #fff;
+}
+
+
+/* PORTFOLIO SECTION */
+.filter a {
+    color: #FFC312;
+    border: 1px solid #FFC312;
+    padding: 18px 10px;
+    display: block;
+}
+
+.filter li {
+    /* moves buttons from overlapping to being side by side */
+    display: inline-block;
+    padding: 5px;
+}
+
+.filter a:hover {
+    text-decoration: none;
+}
+
+.filter .current {
+    background-color: #e84118;
+    border-color: #e84118;
+    color: #fff;
+}
+
+.filter {
+    text-align: center;
+    width: 100%;
+}
+
+.section .heading {
+    text-align: center;
+    padding-bottom: 40px;
+    width: 100%;
 }
