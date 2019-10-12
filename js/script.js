@@ -1,7 +1,7 @@
 // $(document).ready method
 $(document).ready(function() {
 
-    // activates superslides code with jQuery
+// activates superslides code with jQuery
     $('#slides').superslides({
         // fade quality when switching images
         animation: "fade",
@@ -20,7 +20,7 @@ $(document).ready(function() {
         showCursor: false
     });
 
-    // activates owl carousel in technical skills section
+// activates owl carousel in technical skills section
     $('.owl-carousel').owlCarousel({
         loop: true,
         items: 4,
@@ -67,6 +67,40 @@ $(document).ready(function() {
                 }
             });
         }
+    });
+
+// fancybox for portfolio section
+    $("[data-fancybox]").fancybox();
+    // call isotope plugin
+    $(".items").isotope({
+        // filter applied from the start is all
+        filter: '*',
+        animationOptions: {
+            duration: 1500,
+            easing: 'linear',
+            queue: false        
+        }
+    });
+    // isotope filtering of portfolio images
+    $("#filters a").click(function() {
+        // remove current class so when filtering all is not automatically choosen
+        $("#filters .current").removeClass("current");
+        // this refers to whichever button you click, and when clicked gives it class current for display
+        $(this).addClass("current");
+        // selector chooses class of data-filter, i.e .apps, .projects, etc.
+        var selector = $(this).attr("data-filter");
+        // call isoptope with new value
+        $(".items").isotope({
+            // filter applied from the start is all
+            filter: selector,
+            animationOptions: {
+                duration: 1500,
+                easing: 'linear',
+                queue: false        
+            }
+        });
+        // don't do anything else after click because we don't want to go to a link
+        return false;
     });
 
 });

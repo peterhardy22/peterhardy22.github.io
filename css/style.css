@@ -217,8 +217,8 @@ body {
 
 /* PORTFOLIO SECTION */
 .filter a {
-    color: #FFC312;
-    border: 1px solid #FFC312;
+    color: #a4b0be;
+    border: 1px solid #a4b0be;
     padding: 18px 10px;
     display: block;
 }
@@ -248,4 +248,135 @@ body {
     text-align: center;
     padding-bottom: 40px;
     width: 100%;
+}
+
+.items li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.itemsContainer {
+    width: 100%;
+}
+
+.items li img {
+    width: 100%;
+    /* transition code between items */
+    /* chrome */
+    -webkit-transition: all 0.2s linear, 1s;
+    /* firefox */
+    -moz-transition: all 0.2s linear, 1s;
+    /* opera */
+    -o-transition: all 0.2s linear, 1s;
+    /* microsoft edge & internet explorer */
+    -ms-transition: all 0.2s linear, 1s;
+    /* everything else... */
+    -transition: all 0.2s linear, 1s;
+}
+
+.items .item {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.items .icons {
+    position: absolute;
+    width: 90px;
+    height: 40px;
+    left: 50%;
+    top: 50%;
+    /* minus half the height */
+    margin: -20px auto 0 -47px;
+    text-align: center;
+    z-index: 3;
+}
+
+.items .icons i {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 9px;
+}
+
+.items a {
+    width: 40px;
+    height: 40px;
+    background-color: #e84118;
+    position: relative;
+    display: inline-block;
+    /* transition code between items */
+    /* chrome */
+    -webkit-transition: all 0.2s linear, 0.2s;
+    /* firefox */
+    -moz-transition: all 0.2s linear, 0.2s;
+    /* opera */
+    -o-transition: all 0.2s linear, 0.2s;
+    /* microsoft edge & internet explorer */
+    -ms-transition: all 0.2s linear, 0.2s;
+    /* everything else... */
+    -transition: all 0.2s linear, 0.2s;
+}
+/* adds darkness styling to images */
+.items .imageOverlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    /* transition code between items */
+    /* chrome */
+    -webkit-transition: all 0.2s linear, 1s;
+    /* firefox */
+    -moz-transition: all 0.2s linear, 1s;
+    /* opera */
+    -o-transition: all 0.2s linear, 1s;
+    /* microsoft edge & internet explorer */
+    -ms-transition: all 0.2s linear, 1s;
+    /* everything else... */
+    -transition: all 0.2s linear, 1s;
+}
+/* adds darkness to image when hovering over */
+.items .item:hover .imageOverlay {
+    opacity: 1;
+}
+/* makes icons appear when hovering & dissapear when not */
+.items .openButton {
+    /* keeps off image to start with */
+    float: left;
+    left: -200px;
+}
+
+.items .projectLink {
+    /* keeps off image to start with */
+    float: right;
+    right: -200px;
+}
+
+.items .item:hover .openButton {
+    /* brings it back to the center */
+    left: 0px;
+}
+
+.items .item:hover .projectLink {
+    /* brings it back to the center */
+    right: 0px;
+}
+/* zoom in on image when hovering over */
+.items .item:hover img {
+    /* scale refers to x & y scale of image */
+    -webkit-transform: scale(1.05, 1.05);
+    /* firefox */
+    -moz-transform: scale(1.05, 1.05);
+    /* opera */
+    -o-transform: scale(1.05, 1.05);
+    /* microsoft edge & internet explorer */
+    -ms-transform: scale(1.05, 1.05);
+    /* everything else... */
+    -transform: scale(1.05, 1.05);
+} 
+/* allows four images to sit on one line */
+.items {
+  padding: 0;
 }
