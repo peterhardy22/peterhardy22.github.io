@@ -86,7 +86,9 @@ body {
 
 
 /* SKILLS SECTION */
-.skillsSection {
+.skillsSection, 
+/* same styling for conact section */
+.contactSection {
     background-color: #c23616;
     color: #fff;
 }
@@ -191,4 +193,23 @@ body {
    font-size: 45px;
    margin-left: -20%;
    color: #444;
+}
+
+
+/* CONTACT SECTION */
+.contactButton {
+    color: #fff;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    /* higher the radius the more curve to the border */
+    border-radius: 2px; 
+}
+
+.contactButton:hover {
+    /* takes away underline when hovering over */
+    text-decoration: none;
+    color: #e84118;
+    background-color: #fff;
 }
