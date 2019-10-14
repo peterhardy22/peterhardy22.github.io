@@ -69,6 +69,45 @@ body {
 }
 
 
+/* NAVBAR SECTION */
+#navigation {
+    background-color: #c23616;
+    padding: 20px 15px;
+    /* such a high z-index to guarantee its always in front */
+    z-index: 100;
+    width: 100%;
+ }
+
+#navigation li {
+    padding: 0 10px;
+}
+
+#navigation li a {
+  color: #fff;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.navbar-brand:hover,
+#navigation li a:hover {
+    color: #FFC312;
+    transition: all 1s ease-out;
+}
+/* styling the navbar menu icon */
+.navbar-toggler-icon {
+    background: url(../img/icons/menu.png);
+    background-size: 100%;
+ }
+/* what gets the navbar to stay fixed */
+.fixedNav #navigation {
+    position: fixed;
+    top: 0;
+}
+
+
+
 /* ABOUT SECTION */
 .section {
     /* 100px top and bottom, 0 left and right */

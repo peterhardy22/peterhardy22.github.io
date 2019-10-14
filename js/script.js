@@ -103,4 +103,42 @@ $(document).ready(function() {
         return false;
     });
 
+// navbar section
+    // jQuery for smooth transition when clicking on sections from navbar
+    $("#navigation li a").click(function(e) {
+        // prevents user from going to link upon click  
+        e.preventDefault();
+        // get element we want to go to thru the a tag of each navbar element
+        var targetElement = $(this).attr("href");
+        // get position of target element
+        var targetPosition = $(targetElement).offset().top;
+        // use jQuery animate function to slowly scroll to section
+        // -50 is a bit of an offset
+        $("html, body").animate({ scrollTop: targetPosition - 50 }, "slow");
+    });
+
+    // creating a constant variable because it will never be reassigned
+    const nav = $("#navigation");
+    // jQuery to get the top position of the #navigation element
+    const navTop = nav.offset().top;
+    // when the widnow is scrolled call stickyNavigation function
+    $(window).on("scroll", stickyNavigation);
+    // function for creating stickyNavigation
+    function stickyNavigation() {
+        // create variable for the body element
+        const body = $("body");
+        // gains position of the scroll window and asks if its >= the position of the top of the navbar
+        if($(window).scrollTop() >= navTop) {
+            // add whatever the height is pixels worth of padding
+            body.css("padding-top", nav.outerHeight() + "px");
+            // add that class to the body
+            body.addClass("fixedNav");    
+        }
+        else {
+            body.css("padding-top", 0);
+            // remove fixedNav class so it doesnt stay with the scroll
+            body.removeClass("fixedNav");
+        }
+    }
+
 });
