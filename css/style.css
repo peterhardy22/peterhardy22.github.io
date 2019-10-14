@@ -7,6 +7,25 @@ body {
 }
 
 
+/* LOADER */
+.loader {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+
+.loader .inner {
+    width: 100%;
+    height: 100%;
+    /* vertically and horizontally centered and won't repeat gif */
+    background: url(../img/loader.gif) center center no-repeat;
+}
+
+
 /* SUPERSLIDES SECTION */
 /* overlay to darken images for icons to stand out more */
 .overlay {
@@ -107,7 +126,6 @@ body {
 }
 
 
-
 /* ABOUT SECTION */
 .section {
     /* 100px top and bottom, 0 left and right */
@@ -121,6 +139,19 @@ body {
 .aboutImage {
     /* can only be as wide as the col width */
     max-width: 100%;
+}
+
+.section .col-md-7 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 50px;
+    max-width: 100%;
+    padding: 15px 30px;
+    margin-left: 75px;
+}
+
+.section a:hover {
+    color: #c23616;
 }
 
 
@@ -156,17 +187,17 @@ body {
 }
 
 .chart canvas {
-  /* positions element closest to parent tag with positioning */
-  position: absolute;
-  left: 0;
-  top: 0;
+    /* positions element closest to parent tag with positioning */
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .chart .percent {
-  color: #FFC312;
-  line-height: 152px;
-  display: inline-block;
-  font-size: 35px;
+    color: #FFC312;
+    line-height: 152px;
+    display: inline-block;
+    font-size: 35px;
 }
 /* :after puts something after the content, in this case a percent sign */
 .chart .percent:after {

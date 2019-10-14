@@ -1,3 +1,23 @@
+// for loader
+// when the page is loading execute this function
+$(window).on("load", function() {
+    // determine how long until the loader fades out
+    $(".loader .inner").fadeOut(1000, function() {
+        // determine how long until the background fades out
+        $(".loader").fadeOut(750);
+    });
+    // call isotope plugin
+    $(".items").isotope({
+      // filter applied from the start is all
+      filter: '*',
+      animationOptions: {
+          duration: 1500,
+          easing: 'linear',
+          queue: false        
+      }
+  });
+});
+
 // $(document).ready method
 $(document).ready(function() {
 
@@ -71,16 +91,6 @@ $(document).ready(function() {
 
 // fancybox for portfolio section
     $("[data-fancybox]").fancybox();
-    // call isotope plugin
-    $(".items").isotope({
-        // filter applied from the start is all
-        filter: '*',
-        animationOptions: {
-            duration: 1500,
-            easing: 'linear',
-            queue: false        
-        }
-    });
     // isotope filtering of portfolio images
     $("#filters a").click(function() {
         // remove current class so when filtering all is not automatically choosen
@@ -116,7 +126,6 @@ $(document).ready(function() {
         // -50 is a bit of an offset
         $("html, body").animate({ scrollTop: targetPosition - 50 }, "slow");
     });
-
     // creating a constant variable because it will never be reassigned
     const nav = $("#navigation");
     // jQuery to get the top position of the #navigation element
