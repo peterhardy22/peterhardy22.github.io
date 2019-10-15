@@ -152,6 +152,7 @@ body {
 
 .section a:hover {
     color: #c23616;
+    transition: all 1s ease-out;
 }
 
 
@@ -462,4 +463,28 @@ body {
 .copyrightSection p {
     /* paragraphs already have some styling, this takes away margin since padding is set above */
     margin: 0;
+}
+
+
+/* @media only screen and (max-width: 480px) {
+    .section .col-md-7 a {
+        text-decoration: none;
+        color: #000;
+        font-size: 30px;
+        max-width: 100%;
+        padding: 10px 15px;
+        margin-left: 75px;
+    }
+} */
+
+
+@media only screen and (max-width: 768px) {
+    .section .col-md-7 a {
+        text-decoration: none;
+        color: #000;
+        font-size: 30px;
+        max-width: 100%;
+        padding: 10px 15px;
+        margin-left: 75px;
+    }
 }
