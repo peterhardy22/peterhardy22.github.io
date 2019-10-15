@@ -466,7 +466,7 @@ body {
 }
 
 
-/* @media only screen and (min-device-width: 480px) {
+@media screen and (max-device-width: 480px) {
     .section .col-md-7 a {
         text-decoration: none;
         color: #000;
@@ -481,10 +481,10 @@ body {
         font-weight: 400;
         color: #e84118;
     }
-} */
+}
 
 
-/* @media only screen and (min-device-width: 768px) {
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
     .section .col-md-7 a {
         text-decoration: none;
         color: #000;
@@ -494,7 +494,7 @@ body {
     }
 
     .squareContent h2 {
-        font-size: 20px;
+        font-size: 14px;
         margin-bottom: 10px;
         font-weight: 400;
         color: #e84118;
@@ -505,4 +505,28 @@ body {
         font-weight: 600;
         margin: 0;
     }
-} */
+}
+
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+  .section .col-md-7 a {
+      text-decoration: none;
+      color: #000;
+      font-size: 40px;
+      max-width: 100%;
+      padding: 10px 0px;
+  }
+
+  .squareContent h2 {
+      font-size: 16px;
+      margin-bottom: 10px;
+      font-weight: 400;
+      color: #e84118;
+  }
+
+  .squareContent h3 {
+      font-size: 9px;
+      font-weight: 600;
+      margin: 0;
+  }
+}
