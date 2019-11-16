@@ -1,5 +1,7 @@
-# This will be the base for my personal website.
+# My Personal Website
 
-## Working on it now. Thanks!
+## Showcases my skills as in web development and displays some of my projects.
 
-Preview: [Peter Phelps Hardy Website](https://peterhardy22.github.io)
+### Enjoy and send feedback, thanks!
+
+[Peter Phelps Hardy Website](https://peterhardy22.github.io)
