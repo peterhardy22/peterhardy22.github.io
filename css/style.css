@@ -270,7 +270,7 @@ body {
 /* CONTACT SECTION */
 .contactButton {
     color: #FFC312;
-    padding: 15px 20px;
+    padding: 15px 30px;
     display: inline-block;
     margin-top: 20px;
     border: 1px solid #fff;
@@ -285,6 +285,11 @@ body {
     background-color: #fff;
 }
 
+.divider{
+    width: 45px;
+    height: auto;
+    display: inline-block;
+}
 
 /* PORTFOLIO SECTION */
 .filter a {
@@ -453,7 +458,7 @@ body {
 }
 
 
-/* COPPYRIGHT SECTION */
+/* COPYRIGHT SECTION */
 .copyrightSection {
     background: #000;
     color: #fff;
