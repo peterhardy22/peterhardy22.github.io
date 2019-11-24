@@ -1,6 +1,6 @@
 # My Personal Website
 
-## Showcases my skills as in web development and displays some of my projects.
+## Showcases my skills in web development and displays some of my projects.
 
 ### Enjoy and send feedback, thanks!
 
