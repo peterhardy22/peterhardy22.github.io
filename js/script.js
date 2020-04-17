@@ -44,7 +44,6 @@ $(document).ready(function() {
     $('.owl-carousel').owlCarousel({
         loop: true,
         items: 4,
-        nav: true,
         navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
         // specifices how many items to show when a screen is a certain size
         responsive:{
