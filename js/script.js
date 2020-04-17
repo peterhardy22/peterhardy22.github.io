@@ -2,7 +2,7 @@
 // when the page is loading execute this function
 $(window).on("load", function() {
     // determine how long until the loader fades out
-    $(".loader .inner").fadeOut(1000, function() {
+    $(".loader .inner").fadeOut(1500, function() {
         // determine how long until the background fades out
         $(".loader").fadeOut(750);
     });
