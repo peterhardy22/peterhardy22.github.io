@@ -44,6 +44,8 @@ $(document).ready(function() {
     $('.owl-carousel').owlCarousel({
         loop: true,
         items: 4,
+        nav: true,
+        navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
         // specifices how many items to show when a screen is a certain size
         responsive:{
             // refers to screen size
@@ -60,6 +62,7 @@ $(document).ready(function() {
                 items:4
             }
         }
+
     });
     // begin pie chart animation when user scrolls window down to skills section charts
     // jQuery object that refers to skills section
