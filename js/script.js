@@ -60,7 +60,6 @@ $(document).ready(function() {
                 items:4
             }
         }
-
     });
     // begin pie chart animation when user scrolls window down to skills section charts
     // jQuery object that refers to skills section
