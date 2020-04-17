@@ -152,7 +152,7 @@ body {
 
 .section a:hover {
     color: #c23616;
-    transition: all 1s ease-out;
+    transition: all 1s ease-in-out;
 }
 
 
