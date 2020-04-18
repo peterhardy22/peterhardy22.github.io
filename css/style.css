@@ -108,7 +108,7 @@ body {
 .navbar-brand {
     color: #fff;
     -webkit-transition-property: -webkit-transform color;
-    -webkit-transition-duration: 1s;
+    -webkit-transition-duration: 0.5s;
     -webkit-transition-timing-function: ease-in-out;
 }
 
@@ -155,7 +155,7 @@ body {
 
 .section a {
     -webkit-transition-property: -webkit-transform color;
-    -webkit-transition-duration: 1s;
+    -webkit-transition-duration: 0.5s;
     -webkit-transition-timing-function: ease-in-out;
 }
 
@@ -473,14 +473,14 @@ body {
     margin: 0;
 }
 
-
-@media screen and (max-device-width: 480px) {
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  
     .section .col-md-7 a {
         text-decoration: none;
         color: #000;
-        font-size: 30px;
+        font-size: 50px;
         max-width: 100%;
-        margin-left: 25px;
+        padding: 10px 15px;
     }
 
     .squareContent h2 {
@@ -491,14 +491,14 @@ body {
     }
 }
 
-
-@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
     .section .col-md-7 a {
         text-decoration: none;
         color: #000;
         font-size: 40px;
         max-width: 100%;
-        padding: 10px 0px;
+        padding: 10px 28px;
     }
 
     .squareContent h2 {
@@ -515,14 +515,14 @@ body {
     }
 }
 
-
-@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
   .section .col-md-7 a {
       text-decoration: none;
       color: #000;
       font-size: 40px;
       max-width: 100%;
-      padding: 10px 0px;
+      padding: 10px 50px;
   }
 
   .squareContent h2 {
