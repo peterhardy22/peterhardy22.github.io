@@ -517,7 +517,7 @@ body {
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
     .section .col-md-7 a {
       text-decoration: none;
       color: #000;
