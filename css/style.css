@@ -523,6 +523,13 @@ body {
       font-size: 40px;
       max-width: 100%;
       padding: 10px 40px;
+      -webkit-transition-property: -webkit-transform color;
+      -webkit-transition-duration: 0.5s;
+      -webkit-transition-timing-function: ease-in-out;
+  }
+
+  .section .col-md-7 a:hover {
+    color: #c23616;
   }
 
   .squareContent h2 {
