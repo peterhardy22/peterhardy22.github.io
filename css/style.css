@@ -107,17 +107,20 @@ body {
 
 .navbar-brand {
     color: #fff;
+    -webkit-transition-property: -webkit-transform color;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-timing-function: ease-in-out;
 }
 
 .navbar-brand:hover,
 #navigation li a:hover {
     color: #FFC312;
-    transition: all 1s ease-out;
 }
 /* styling the navbar menu icon */
 .navbar-toggler-icon {
     background: url(../img/icons/menu.png);
     background-size: 100%;
+    color: #fff;
  }
 /* what gets the navbar to stay fixed */
 .fixedNav #navigation {
@@ -150,9 +153,14 @@ body {
     margin-left: 75px;
 }
 
+.section a {
+    -webkit-transition-property: -webkit-transform color;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
 .section a:hover {
     color: #c23616;
-    transition-timing-function: ease-in-out;
 }
 
 
