@@ -152,7 +152,7 @@ body {
 
 .section a:hover {
     color: #c23616;
-    transition: ease-in-out(1.0, 1.0);
+    transition-timing-function: cubic-bezier(0.2,-2,0.8,2);
 }
 
 
