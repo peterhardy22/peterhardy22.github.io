@@ -518,7 +518,7 @@ body {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .fab.fa-github {
+    .section .col-md-7 a {
       text-decoration: none;
       color: #000;
       font-size: 40px;
@@ -527,10 +527,6 @@ body {
       -webkit-transition-property: -webkit-transform color;
       -webkit-transition-duration: 0.5s;
       -webkit-transition-timing-function: ease-in-out;
-  }
-
-  .fab.fa-github:hover {
-    color: #c23616;
   }
 
   .squareContent h2 {
