@@ -538,6 +538,10 @@ img {
       -webkit-transition-timing-function: ease-in-out;
   }
 
+  .section .col-md-7 h4 {
+      padding-top: 35px;
+  }
+
   .squareContent h2 {
       font-size: 16px;
       margin-bottom: 10px;
