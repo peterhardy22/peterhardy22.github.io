@@ -511,6 +511,10 @@ img {
         margin-left: 60px;
     }
 
+    .section .col-md-7 h4 {
+        padding-top: 35px;
+    }
+
     .squareContent h2 {
         font-size: 14px;
         margin-bottom: 10px;
@@ -536,10 +540,6 @@ img {
       -webkit-transition-property: -webkit-transform color;
       -webkit-transition-duration: 0.5s;
       -webkit-transition-timing-function: ease-in-out;
-  }
-
-  .section .col-md-7 h4 {
-      padding-top: 35px;
   }
 
   .squareContent h2 {
