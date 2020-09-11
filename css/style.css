@@ -500,6 +500,12 @@ img {
     }
 }
 
+@media (max-width: 425px) { 
+    .section .col-md-7 h4 {
+        padding-top: 35px;
+    }
+}
+
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (min-width: 768px) {  
     .section .col-md-7 a {
@@ -509,10 +515,6 @@ img {
         max-width: 100%;
         padding: 15px 0px 0px 0px;
         margin-left: 60px;
-    }
-
-    .section .col-md-7 h4 {
-        padding-top: 35px;
     }
 
     .squareContent h2 {
