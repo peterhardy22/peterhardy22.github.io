@@ -32,7 +32,7 @@ $(document).ready(function() {
     });
     // Creates typed effect in supersliders section
     var typed = new Typed(".typed", {
-        strings: ["Software Developer", "Web Designer", "Data Analyst", "Data Engineer"],
+        strings: ["Automation Engineer", "Cloud Engineer", "Solutions Architect"],
         typeSpeed: 60,
         loop: true,
         // wait before it starts typing again
