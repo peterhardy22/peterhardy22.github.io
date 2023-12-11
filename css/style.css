@@ -2,7 +2,7 @@
 body {
   font-size: 14px;
   color: #333;
-  background-color: #fff;
+  background-color: #07ff610d;
   letter-spacing: 1px;
 }
 
@@ -90,7 +90,7 @@ body {
 
 /* NAVBAR SECTION */
 #navigation {
-    background-color: #c23616;
+    background-color: #50C878;
     padding: 20px 15px;
     /* such a high z-index to guarantee its always in front */
     z-index: 100;
@@ -165,7 +165,7 @@ img {
 }
 
 .section a:hover {
-    color: #c23616;
+    color: #50C878;
 }
 
 
@@ -173,7 +173,7 @@ img {
 .skillsSection, 
 /* same styling for contact section */
 .contactSection {
-    background-color: #c23616;
+    background-color: #50C878;
     color: #fff;
 }
 
